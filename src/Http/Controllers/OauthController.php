@@ -5,7 +5,6 @@ namespace Gxyshs\WechatOauth\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cookie;
 use WechatOauth;
-use VerifyCode;
 
 class OauthController extends BaseController
 {

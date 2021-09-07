@@ -18,21 +18,21 @@
     },
     "autoload": {
         "psr-4": {
-            "Gxyshs\\wechat-oauth\\": "src/"
+            "Gxyshs\\WechatOauth\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Gxyshs\\wechat-oauth\\Tests\\": "tests"
+            "Gxyshs\\WechatOauth\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Gxyshs\\wechat-oauth\\WechatOauthServiceProvider"
+                "Gxyshs\\WechatOauth\\WechatOauthServiceProvider"
             ],
             "aliases": {
-                "WechatOauth": "Gxyshs\\wechat-oauth\\Facades\\WechatOauth"
+                "WechatOauth": "Gxyshs\\WechatOauth\\Facades\\WechatOauth"
             }
         }
     }
