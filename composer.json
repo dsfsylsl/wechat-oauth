@@ -1,0 +1,38 @@
+{
+    "name": "gxyshs/wechat-oauth",
+    "description": "微信授权服务",
+    "license": "license",
+    "authors": [
+        {
+            "name": "fengshiyu",
+            "email": "5722148870@qq.com",
+            "homepage": "https://github.com/gxyshs/wechat-oauth"
+        }
+    ],
+    "homepage": "https://github.com/gxyshs/wechat-oauth",
+    "keywords": ["Laravel", "WechatOauth"],
+    "require": {
+        "illuminate/support": "~7|~8",
+        "overtrue/wechat": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gxyshs\\wechat-oauth\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Gxyshs\\wechat-oauth\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gxyshs\\wechat-oauth\\WechatOauthServiceProvider"
+            ],
+            "aliases": {
+                "WechatOauth": "Gxyshs\\wechat-oauth\\Facades\\WechatOauth"
+            }
+        }
+    }
+}
